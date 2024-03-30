@@ -1,4 +1,12 @@
 #!/bin/sh
+echo "Enter a height"
+read height
+echo "Enter a width"
+read width
+
+total=$(( height+width ))
+
+echo "The total is $total"
 
 echo "Enter your first number"
 read first
@@ -11,14 +19,14 @@ sum=$(( first+second+third ))
 
 echo "The sum is $sum"
 
-# exercise: ask the user for the width and height and present total
-# number of pixels
-#
-echo "Enter a height"
-read height
-echo "Enter a width"
-read width
 
-total=$(( height+width ))
 
-echo "The total is $total"
+
+
+
+
+
+
+
+
+
