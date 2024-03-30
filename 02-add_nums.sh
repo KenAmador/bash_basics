@@ -22,3 +22,4 @@ read width
 total=$(( height+width ))
 
 echo "The total is $total"
+""
